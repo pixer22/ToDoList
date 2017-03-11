@@ -1,0 +1,9 @@
+<li ng-repeat="todo in data.todoList">
+    <span><%=todo.task%> </span>
+    <input type="text" class="readText">
+    <button class="deletedTasks buttonStyle" data-id-tasks="<%=todo._id%>">remove</button>
+    <button class="readTask buttonStyle" data-id-tasks="<%=todo._id%>">
+        <i class="fa fa-pencil openInput" aria-hidden="true"></i>
+        <i class="fa fa-check saveInput" aria-hidden="true"></i>
+    </button>
+</li>

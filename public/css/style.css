@@ -1,0 +1,108 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.titleTodo {
+    color: #205081;
+    font-size: 48px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.formAddedTascs {
+    background: #f5f5f5;
+    width: 600px;
+    margin: auto;
+    padding: 25px 15px;
+}
+
+.buttonStyle {
+    background-color: #205081;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.125;
+    padding: 10px 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none !important;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0);
+    transition: all .3s;
+}
+
+.buttonStyle:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45);
+}
+
+.addedTascs {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.someTextTascs {
+    outline: none !important;
+    border: none;
+    background: white;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    max-height: 230px;
+}
+
+.todoList {
+    background: #f5f5f5;
+    width: 600px;
+    margin: auto;
+    padding: 25px 15px 15px 30px;
+    margin-top: 30px;
+}
+
+.newTascs {
+    float: right;
+    font-weight: bold;
+}
+.filterInput {
+    border: 2px solid #205081;
+    width: 628px;
+    margin: 30px auto;
+    display: block;
+    height: 30px;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.todoList li {
+    margin: 0 0 15px 10px;
+    font-size: 16px;
+    min-height: 40px;
+    position: relative;
+}
+
+.todoList li span {
+    width: 72%;
+    display: inline-flex;
+}
+
+.deletedTasks {
+    float: right;
+}
+
+.readText {
+    position: absolute;
+    right: 200px;
+    display: none;
+    top: 10px;
+}
+
+.saveInput {
+    display: none;
+}
